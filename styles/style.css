@@ -18,7 +18,8 @@ p  {
 }
 
 body {
-    background-color:pink;
+    background-image: url("../resources/animu.gif");
+    background-color: pink;
 }
 
 nav {
