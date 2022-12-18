@@ -1,4 +1,4 @@
-h1  {
+h1_mod  {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: lightseagreen;
 }
@@ -22,6 +22,31 @@ body {
 }
 
 nav {
-    background-color:darkseagreen;
-    color:powderblue;
+    background-color: darkseagreen;
+    color: powderblue;
+    width: 120px;
+    height: 100vh;
+    float: left;
+}
+
+header {
+    background-color: lightyellow;
+    color:darkblue;
+    font-family: 'Comic Sans MS';
+    text-align:center;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+main {
+    background-color: aqua;
+    color: darkred;
+    height: 100vh;
+}
+
+footer {
+    background-color: rosybrown;
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
