@@ -23,23 +23,46 @@
 
     <main id="mainBg">
         <h1>JavaScript bullshit</h1>
+
+        <!-- Peepee/Poopoo changeable text-->
         <p id="ppTxt">Peepee</p>
         <script src="js/javaFunScript.js"></script>
 
+        <!-- Change text with buttons. Clicking 'Peepee' changes to Peepee, 'Poopoo' to Poopoo-->
         <button type="button" onclick="ppTextChange('Poopoo')">Poopoo</button>
         <button type="button" onclick="ppTextChange('Peepee')">Peepee</button>
 
+        <!-- Change background color of main -->
         <h2>Background color</h2>
         <button type="button" onclick="changeBgColor('blue')">Blue</button>
         <button type="button" onclick="changeBgColor('red')">Red</button>
         <button type="button" onclick="changeBgColor('green')">Green</button>
         <button type="button" onclick="changeBgColor('white')">White</button>
         <button type="button" onclick="changeBgColor('black')">Black</button>
+
+        <!-- Field to input new color, by name, hexidecimal ...-->
         <form>
             <label for="iColor">Custom color:</label>
             <input type="text" id="iColor" name="inputColor" />
             <button type="button" onclick="changeBgColor('')">Submit</button>
         </form>
+
+        <h2>Very simple calculator</h2>
+
+        <form>
+            <label for="first">Number:</label>
+            <input type="number" id="first" name="firstNumber" />
+        </form>
+        <form>
+            <label for="second">Number:</label>
+            <input type="number" id="second" name="secondNumber" />
+        </form>
+        <p id="result"></p>
+        <script src="js/calculator.js"></script>
+        <button type="button" onclick="add()">Add</button>
+        <button type="button" onclick="subtract()">Subtract</button>
+        <button type="button" onclick="multiply()">Multiply</button>
+        <button type="button" onclick="divide()">Divide</button>
 
     </main>
 
