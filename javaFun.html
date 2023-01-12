@@ -21,15 +21,26 @@
         <img src="resources/baby.gif" width="120">
     </nav>
 
-    <main>
+    <main id="mainBg">
         <h1>JavaScript bullshit</h1>
         <p id="ppTxt">Peepee</p>
         <script src="js/javaFunScript.js"></script>
 
         <button type="button" onclick="ppTextChange('Poopoo')">Poopoo</button>
         <button type="button" onclick="ppTextChange('Peepee')">Peepee</button>
-    
+
         <h2>Background color</h2>
+        <button type="button" onclick="changeBgColor('blue')">Blue</button>
+        <button type="button" onclick="changeBgColor('red')">Red</button>
+        <button type="button" onclick="changeBgColor('green')">Green</button>
+        <button type="button" onclick="changeBgColor('white')">White</button>
+        <button type="button" onclick="changeBgColor('black')">Black</button>
+        <form>
+            <label for="iColor">Custom color:</label>
+            <input type="text" id="iColor" name="inputColor" />
+            <button type="button" onclick="changeBgColor('')">Submit</button>
+        </form>
+
     </main>
 
     <footer>
