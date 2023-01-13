@@ -42,6 +42,7 @@
         <button type="button" onclick="changeBgColor('white')">White</button>
         <button type="button" onclick="changeBgColor('black')">Black</button>
         <button type="button" onclick="changeBgColor('random')">Surprise me!</button>
+        <button type="button" onclick="rgbBg()">RGB</button>
 
         <!-- Field to input new color, by name, hexidecimal ...-->
         <form>
@@ -52,20 +53,26 @@
 
         <h2>Very simple calculator</h2>
 
+        <!-- Input field to enter first number -->
         <form>
             <label for="first">Number:</label>
             <input type="number" id="first" name="firstNumber" />
         </form>
+        <!-- Input field to enter second number -->
         <form>
             <label for="second">Number:</label>
             <input type="number" id="second" name="secondNumber" />
         </form>
-        <p id="result"></p>
+
+        <!-- Loading the JavaScript file containing calculator functionality -->
         <script src="js/calculator.js"></script>
         <button type="button" onclick="add()">Add</button>
         <button type="button" onclick="subtract()">Subtract</button>
         <button type="button" onclick="multiply()">Multiply</button>
         <button type="button" onclick="divide()">Divide</button>
+        
+        <!-- Result will be displayed here. Initially empty-->
+        <p id="result"></p>
 
     </main>
 
