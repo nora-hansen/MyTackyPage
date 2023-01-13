@@ -49,6 +49,8 @@ let b = 0;
 
 /**
  * @brief   -   Function to change background color of main tag over time using recursion
+ * 
+ * !!NOTE, USING THIS RENDERS OTHER FUNCTIONS UNUSABLE UNLESS REFRESHING THE PAGE
  */
 function rgbBg() {
 
