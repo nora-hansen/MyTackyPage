@@ -1,5 +1,6 @@
-let pp = document.getElementById('ppTxt');  //Peepee or poopoo text
-let bg = document.getElementById('mainBg'); //Background color of main tag
+let pp  = document.getElementById('ppTxt');  //Peepee or poopoo text
+let bg  = document.getElementById('mainBg'); //Background color of main tag
+let rgb = false;
 
 // Change peepee poopoo text
 function ppTextChange(button) {
@@ -13,6 +14,8 @@ function ppTextChange(button) {
  * @param c -   Desired color value, or "random" if [Surprise me!] is clicked
  */
 function changeBgColor(c) {
+    // Disable RGB if active
+    rgb = false;
     // If color name is empty, set to custom color
     if (c == '') {
         let customColor = document.getElementById('iColor').value;
@@ -20,6 +23,9 @@ function changeBgColor(c) {
         // If color name is random, generate random color
     } else if (c == 'random') {
         c = genRandomColor();
+    } else if (c == 'rgb') {
+        rgb = true;
+        rgbBg();
     }
     // Set color of background to new color
     bg.style.backgroundColor = c;
@@ -54,33 +60,33 @@ let b = 0;
  */
 function rgbBg() {
 
-    // Does JavaScript have switches..? Cuz this is ogly
+    if (rgb) {
+        // If color is pure red..
+        if (r == 255 && g < 255 && b == 0) {
+            g++;    // Increase green
+            // If color is yellow...
+        } else if (g == 255 && r > 0) {
+            r--;    // Decrease red
+            // If color is pure green...
+        } else if (g == 255 && b < 255) {
+            b++;    // Increase blue
+            // If color is cyan...
+        } else if (b == 255 && g > 0) {
+            g--;    // Decrease green
+            // If color is pure blue...
+        } else if (b == 255 && r < 255) {
+            r++;    // Increase red
+            // If color is pink/purple...
+        } else if (r == 255 && b > 0) {
+            b--;    // Decrease blue
+        }
 
-    // If color is pure red..
-    if (r == 255 && g < 255 && b == 0) {
-        g++;    // Increase green
-    // If color is yellow...
-    } else if (g == 255 && r > 0) {
-        r--;    // Decrease red
-    // If color is pure green...
-    } else if (g == 255 && b < 255) {
-        b++;    // Increase blue
-    // If color is cyan...
-    } else if (b == 255 && g > 0) {
-        g--;    // Decrease green
-    // If color is pure blue...
-    } else if (b == 255 && r < 255) {
-        r++;    // Increase red
-    // If color is pink/purple...
-    } else if (r == 255 && b > 0) {
-        b--;    // Decrease blue
+        // Create the color string to be passed
+        let color = 'rgb(' + r + ',' + g + ',' + b + ')';
+        console.log(color); // Log color (for debugging purposes !)
+        // Set the color
+        bg.style.backgroundColor = color;
+        // Wait, then run function again
+        setTimeout(rgbBg, 10);
     }
-
-    // Create the color string to be passed
-    let color = 'rgb(' + r + ',' + g + ',' + b + ')';
-    console.log(color); // Log color (for debugging purposes !)
-    // Set the color
-    bg.style.backgroundColor = color;
-    // Wait, then run function again
-    setTimeout(rgbBg, 10); 
 }
