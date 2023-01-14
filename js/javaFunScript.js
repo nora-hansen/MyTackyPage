@@ -29,7 +29,9 @@ function changeBgColor(c) {
     }
     // Set color of background to new color
     bg.style.backgroundColor = c;
-
+    if (event.keyCode == 13) {
+        event.preventDefault();
+    }
 }
 
 /**

@@ -50,9 +50,11 @@
         <button type="button" onclick="changeBgColor('rgb')">RGB</button>
 
         <!-- Field to input new color, by name, hexidecimal ...-->
-        <form>
+        <form onSubmit="return false;">
             <label for="iColor">Custom color:</label>
             <input type="text" id="iColor" name="inputColor" />
+            <!-- Invisible button to allow submitting with Enter key -->
+            <input name="submit " type="submit" id="enterSub" onclick="changeBgColor('')" style="display: none">
             <button type="button" onclick="changeBgColor('')">Submit</button>
         </form>
 
