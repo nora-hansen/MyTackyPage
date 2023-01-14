@@ -5,6 +5,7 @@
 
 # Nure files
 MAL.html
+.DS_STORE
 
 # User-specific files
 *.rsuser
