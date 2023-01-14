@@ -3,6 +3,19 @@ My personal webpage :)
   
   This is web development practice, nothing more.  
   It can be found at https://nurenur.eu
+  
+## Planned features
+- Art gallery
+- YouTube music
+- Links with clickable icons
+- Database functionality (user logins, other..)
+- Book an appointment with Nure
+- Minigames
+- A pet
+- Eastereggs
+- RGB sliders
+- Text color button
+- Persistent changes
 
 ## Patch notes
 ### Version 1.01 - 14. January 2023
