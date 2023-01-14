@@ -1,6 +1,7 @@
 let pp  = document.getElementById('ppTxt');  //Peepee or poopoo text
 let bg  = document.getElementById('mainBg'); //Background color of main tag
 let rgb = false;
+let peepy = false;
 
 // Change peepee poopoo text
 function ppTextChange(button) {
@@ -11,22 +12,33 @@ function ppTextChange(button) {
  * @brief   Change background color of main tag
  * 
  * @see     -   genRandomColor()
+ * @see     -   peepyBg()
  * @param c -   Desired color value, or "random" if [Surprise me!] is clicked
  */
 function changeBgColor(c) {
     // Disable RGB if active
     rgb = false;
+    // Reset.... stuff
+    peepy = false;
+    bg.style.background = 'none';
+    document.getElementById("secret").innerHTML='';
+
     // If color name is empty, set to custom color
     if (c == '') {
         let customColor = document.getElementById('iColor').value;
         c = customColor;
-        // If color name is random, generate random color
+    // :O ???
+    if (c == 'peepy')	{
+        peepy = true;
+        peepyBg();
+    }
+    // If color name is random, generate random color
     } else if (c == 'random') {
         c = genRandomColor();
     } else if (c == 'rgb') {
         rgb = true;
         rgbBg();
-    }
+    }  
     // Set color of background to new color
     bg.style.backgroundColor = c;
     if (event.keyCode == 13) {
@@ -92,3 +104,16 @@ function rgbBg() {
         setTimeout(rgbBg, 10);
     }
 }
+
+/**
+ * @brief   -   Don't look! Spoilers! Well, activate Peepy mod
+ */
+function peepyBg()    {
+    if (peepy)  {
+        console.log('peepy find!!');
+        document.getElementById("secret").innerHTML='<iframe width="1" height="1" src="https://www.youtube.com/embed/Yep6GVM0IYs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+
+        bg.style.backgroundImage = "url('https://steamuserimages-a.akamaihd.net/ugc/1709663684930978178/22B2494E4F60EA1C9CEE3B2D759400336F5088FA/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true')";
+    }
+}
+
