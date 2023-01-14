@@ -1,20 +1,21 @@
-h1_mod  {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1_mod {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: lightseagreen;
 }
-p  {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:black;
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
 }
 
 #topper {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:darkslategrey;
-    background-color:greenyellow;
-    font-size:40px;
-    height:50px;
-    margin:2px auto 2px auto;
-    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategrey;
+    background-color: greenyellow;
+    font-size: 40px;
+    height: 50px;
+    margin: 2px auto 2px auto;
+    text-align: center;
 }
 
 body {
@@ -32,11 +33,11 @@ nav {
 
 header {
     background-color: lightyellow;
-    color:darkblue;
+    color: darkblue;
     font-family: 'Comic Sans MS';
-    text-align:center;
-    padding-top:2px;
-    padding-bottom:2px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 main {
