@@ -16,6 +16,7 @@ My personal webpage :)
 - RGB sliders
 - Text color button
 - Persistent changes
+- Color favorites
 
 ## Patch notes
 ### Version 1.02 - 14. January 2023
