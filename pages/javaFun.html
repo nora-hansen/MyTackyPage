@@ -4,8 +4,8 @@
     <title>NurePage - INSERT</title>
     <meta charset="utf-8" />
     <meta name="Nure's Tacky Page" description="This is a bullshitty page for practicing!" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="icon" href="resources/tempIcon.ico" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="icon" href="../resources/tempIcon.ico" />
 </head>
 <body>
     <header>
@@ -14,13 +14,14 @@
     <nav>
         <p>Pages</p>
         <ul>
-            <li><a href="index.html">Index</a></li>
+            <li><a href="../index.html">Index</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="links.html">Links</a></li>
             <li><a href="javaFun.html">JavaScript bull</a></li>
             <li><a href="soundCloudEmbed.html">Cool song</a></li>
+            <li><a href="thanks.html">Special thanks</a></li>
         </ul>
-        <img src="resources/baby.gif" width="120">
+        <img src="../resources/baby.gif" width="120">
     </nav>
 
     <main id="mainBg">
@@ -28,7 +29,7 @@
 
         <!-- Peepee/Poopoo changeable text-->
         <p id="ppTxt">Peepee</p>
-        <script src="js/javaFunScript.js"></script>
+        <script src="../js/javaFunScript.js"></script>
 
         <!-- Change text with buttons. Clicking 'Peepee' changes to Peepee, 'Poopoo' to Poopoo-->
         <button type="button" onclick="ppTextChange('Poopoo')">Poopoo</button>
@@ -69,15 +70,16 @@
         </form>
 
         <!-- Loading the JavaScript file containing calculator functionality -->
-        <script src="js/calculator.js"></script>
+
+
         <button type="button" onclick="add()">Add</button>
         <button type="button" onclick="subtract()">Subtract</button>
         <button type="button" onclick="multiply()">Multiply</button>
         <button type="button" onclick="divide()">Divide</button>
-        
+
         <!-- Result will be displayed here. Initially empty-->
         <p id="result"></p>
-
+        <script src="../js/calculator.js"></script>
     </main>
 
     <footer>
