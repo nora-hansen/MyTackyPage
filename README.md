@@ -19,6 +19,13 @@ My personal webpage :)
 
 ## Patch notes
 ### Version 1.01 - 14. January 2023
+- Index Page: Added some page descriptions
+- JavaScript bull Page: Fixed two bugs:
+  - RGB color can be canceled by selecting another color
+  - Custom color may be entered by pressing the Enter key
+- Special thanks Page: Added cute gif :)
+
+### Version 1.01 - 14. January 2023
 - Links page: Added link to source code
 - JavaScript bull page: Fixed calculator, it now shows the results
 - Added new page: Special thanks page at https://nurenur.eu/pages/thanks.html
