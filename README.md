@@ -18,6 +18,13 @@ My personal webpage :)
 - Persistent changes
 
 ## Patch notes
+### Version 1.02 - 14. January 2023
+- Index Page: Added some page descriptions
+- JavaScript bull Page: Fixed two bugs:
+  - RGB color can be canceled by selecting another color
+  - Custom color may be entered by pressing the Enter key
+- Special thanks Page: Added cute gif :)
+
 ### Version 1.01 - 14. January 2023
 - Links page: Added link to source code
 - JavaScript bull page: Fixed calculator, it now shows the results
