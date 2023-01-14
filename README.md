@@ -18,7 +18,7 @@ My personal webpage :)
 - Persistent changes
 
 ## Patch notes
-### Version 1.01 - 14. January 2023
+### Version 1.02 - 14. January 2023
 - Index Page: Added some page descriptions
 - JavaScript bull Page: Fixed two bugs:
   - RGB color can be canceled by selecting another color
