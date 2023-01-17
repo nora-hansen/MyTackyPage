@@ -39,6 +39,14 @@ header {
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.msg {
+    background-color: azure;
+    color: darkgreen;
+    width: 500px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
 
 main {
     background-color: aqua;
@@ -47,14 +55,7 @@ main {
     width: auto;
 }
 
-msg {
-    background-color: azure;
-    color: darkgreen;
-    width: 500px;
-    float: right;
-    margin-top: 50px;
-    margin-right:50px;
-}
+
 
 footer {
     background-color: rosybrown;
