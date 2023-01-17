@@ -19,6 +19,10 @@ My personal webpage :)
 - Color favorites
 
 ## Patch notes
+### Version 1.03 - 17. January 2023
+- Index Page: Added Updates board, as well as Easter egg count
+- Minor fixes
+
 ### Version 1.02 - 14. January 2023
 - Index Page: Added some page descriptions
 - JavaScript bull Page: Fixed two bugs:
