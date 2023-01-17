@@ -44,6 +44,16 @@ main {
     background-color: aqua;
     color: darkred;
     height: 100vh;
+    width: auto;
+}
+
+msg {
+    background-color: azure;
+    color: darkgreen;
+    width: 500px;
+    float: right;
+    margin-top: 50px;
+    margin-right:50px;
 }
 
 footer {
