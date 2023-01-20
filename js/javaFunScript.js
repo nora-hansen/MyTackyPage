@@ -2,6 +2,7 @@ let pp  = document.getElementById('ppTxt');  //Peepee or poopoo text
 let bg  = document.getElementById('mainBg'); //Background color of main tag
 let rgb = false;
 let peepy = false;
+let drnow = false;
 
 // Change peepee poopoo text
 function ppTextChange(button) {
@@ -20,7 +21,8 @@ function changeBgColor(c) {
     rgb = false;
     // Reset.... stuff
     peepy = false;
-    bg.style.background = 'none';
+    drnow = false;
+    bg.style.backgroundImage = 'none';
     document.getElementById("secret").innerHTML='';
 
     // If color name is empty, set to custom color
@@ -31,6 +33,9 @@ function changeBgColor(c) {
     if (c == 'peepy')	{
         peepy = true;
         peepyBg();
+    }   else if (c == 'my600lblife')    {
+        drnow = true;
+        drNowBg();
     }
     // If color name is random, generate random color
     } else if (c == 'random') {
@@ -114,6 +119,18 @@ function peepyBg()    {
         document.getElementById("secret").innerHTML='<iframe width="1" height="1" src="https://www.youtube.com/embed/Yep6GVM0IYs?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
 
         bg.style.backgroundImage = "url('https://steamuserimages-a.akamaihd.net/ugc/1709663684930978178/22B2494E4F60EA1C9CEE3B2D759400336F5088FA/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true')";
+    }
+}
+
+/**
+ * @brief   -   Don't look! Spoilers! Well, activate DrNow mod
+ */
+function drNowBg()    {
+    if (drnow)  {
+        console.log('drnow find!!');
+        document.getElementById("secret").innerHTML='<iframe width="1%" height="1" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/85680408&color=%23cc1404&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dhamburger" title="dhamburger" target="_blank" style="color: #cccccc; text-decoration: none;">dhamburger</a> · <a href="https://soundcloud.com/dhamburger/heavy-anglophonic" title="My 600 LB Life: Anglophonic" target="_blank" style="color: #cccccc; text-decoration: none;">My 600 LB Life: Anglophonic</a></div>';
+
+        bg.style.backgroundImage = "url('https://i0.wp.com/starcasm.net/wp-content/uploads/2015/01/My_600-Lb_Life_Doctor_Younan_Nowzaradan.jpg')";
     }
 }
 
