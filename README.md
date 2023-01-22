@@ -19,6 +19,10 @@ My personal webpage :)
 - Color favorites
 
 ## Patch notes
+### Version 1.04 - 20. January 2023
+- Index Page: Updated "Updates" tab
+- JavaScrupt bull page: Fixed Background clearing issue bug.
+
 ### Version 1.03 - 17. January 2023
 - Index Page: Added Updates board, as well as Easter egg count
 - Minor fixes
