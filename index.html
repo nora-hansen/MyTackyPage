@@ -4,8 +4,142 @@
     <title>NurePage - Home</title>
     <meta charset="utf-8" />
     <meta name="Nure's Tacky Page" description="This is a bullshitty page for practicing!" />
-    <link rel="stylesheet" href="styles/style.css" />
     <link rel="icon" href="resources/tempIcon.ico"/>
+    <style>
+        
+html, body {
+    margin: 4px;
+    background-image: url("../resources/animu.gif");
+    background-color: pink;
+
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* include border and padding in element width and height */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1_mod {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightseagreen;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.header {
+    background-color: midnightblue;
+    color: palegreen;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    margin-top: 0;
+    height: 60px;
+}
+
+.main {
+    background-color: aqua;
+    color: darkred;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.index-info {
+    margin-right: 10px;
+    width: 300px;
+    float: left;
+    padding: 16px 0 0px 12px;
+}
+
+.msg {
+    background-color: lavenderblush;
+    color: darksalmon;
+    width: 310px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    border: 2px solid darksalmon;
+}
+
+.msg h2 {
+    background-color: light-pink;
+    border-bottom: double;
+    text-align: center;
+}
+
+.msg p {
+    padding-bottom: 8px;
+}
+
+/* nav styling */
+.nav {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 100%;
+    margin: 0 5px 0 0;
+    float: left;
+    padding: 0px auto;
+}
+
+.nav p {
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.nav ul li {
+    border-bottom: 2px solid mediumorchid;
+    padding: 20px;
+}
+
+.nav ul li:hover {
+    background-color: mediumorchid;
+}
+
+
+
+.update {
+    width: 500px;
+}
+
+footer {
+    background-color: rosybrown;
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+@media screen and (max-width: 700px)    {
+    .nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 2px    }
+}
+
+
+    </style>
 </head>
 <body>
     <div class="header">
@@ -49,13 +183,13 @@
         </div>
         <div class="msg update">
             <h2>Updates</h2>
-            <h3>20. January 2023</h3>
-            <p>Tiny update on development!</p>
-            <p>I looked at some React guides, but some of them were kinda clunky and old :L</p>
-            <p>I looked up tutorials on Zenva (their classes are SO GOOD, they pretty much made this website hehehe) and they were using Vue instead.</p>
-            <p>"Tf is Vue" yea I said the same thing, apparently it does pretty much the same as React just easier :D Soooo yeah, I'm moving over to using Vue cx. After all, Zenva has classes on it and I like Zenva ;_____;</p>
+            <h3>22. January 2023</h3>
+            <p>Website update!</p>
+            <p>As you can probably see, I've slightly updated the design :)</p>
+            <p>I ran into an interesting thing however, for some reason I can't  have the style in a css file because it won't be applied..? I had to put the styling directly into the html files :L odd</p>
+            <p>Anyway, yeah, just a slight change C: Still gonna change a lot to the design but for now, it looks a wee bit better (?)</p>
             <p>-Nure</p>
-            <iframe src="https://giphy.com/embed/3oKIPnAiaMCws8nOsE" width="250" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-kitten-computer-3oKIPnAiaMCws8nOsE">via GIPHY</a></p></p>
+            <div class="tenor-gif-embed" data-postid="19083568" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/csm-gcd-graphic-design-gif-19083568">Csm Gcd Sticker</a>from <a href="https://tenor.com/search/csm-stickers">Csm Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script></p></p>
         </div>
     </div>
     <footer>
