@@ -2,8 +2,8 @@ html, body {
     margin: 4px;
     background-image: url("../resources/animu.gif");
     background-color: pink;
-
 }
+
 body {
     height: 100vh;
     width: 100vw;
@@ -16,16 +16,12 @@ body {
     box-sizing: border-box;
 }
 
-h1_mod {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: lightseagreen;
-}
-
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
 }
 
+/* header */
 .header {
     background-color: midnightblue;
     color: palegreen;
@@ -33,6 +29,25 @@ p {
     text-align: center;
     margin-top: 0;
     height: 60px;
+}
+
+/* main */
+.main h1 {
+    font-family: Verdana;
+    color: darkcyan;
+    padding: 3px;
+}
+
+.main h2 {
+    font-family: Verdana;
+    color: darkcyan;
+    padding: 3px;
+}
+
+.main h3 {
+    font-family: Verdana;
+    color: darkcyan;
+    padding: 3px;
 }
 
 .main {
@@ -101,8 +116,6 @@ p {
     background-color: mediumorchid;
 }
 
-
-
 .update {
     width: 500px;
 }
@@ -115,6 +128,14 @@ footer {
     margin-bottom: 0px;
     width: 100%;
     height: 50px;
+}
+
+.icon   {
+    transition: 0.2s;
+}
+
+.icon:hover {
+    background-color: white;
 }
 
 @media screen and (max-width: 700px)    {
