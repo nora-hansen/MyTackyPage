@@ -19,6 +19,9 @@ My personal webpage :)
 - Color favorites
 
 ## Patch notes
+### Version 1.06 - 24. January 2023
+- Styling: Change layout on small screens
+
 ### Version 1.05 - 22. January 2023
 - All pages: Design update
 
