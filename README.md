@@ -7,7 +7,7 @@ My personal webpage :)
 ## Planned features
 - Art gallery
 - YouTube music
-- Links with clickable icons
+- ~~Links with clickable icons~~
 - Database functionality (user logins, other..)
 - Book an appointment with Nure
 - Minigames
