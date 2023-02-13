@@ -1,0 +1,10 @@
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/CMakeFiles/INSTALL.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/runner/CMakeFiles/nurenur.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/norah/Documents/TackyWebsiteFlutter/nurenur/build/windows/runner/CMakeFiles/ALL_BUILD.dir

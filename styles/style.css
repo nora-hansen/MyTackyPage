@@ -50,6 +50,12 @@ p {
     padding: 3px;
 }
 
+.main h4 {
+    font-family: Verdana;
+    color: darkcyan;
+    padding: 3px;
+}
+
 .main {
     background-color: aqua;
     color: darkred;

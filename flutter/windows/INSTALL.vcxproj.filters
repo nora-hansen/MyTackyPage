@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\norah\Documents\TackyWebsiteFlutter\nurenur\build\windows\CMakeFiles\e426c9083b74d70c22fc91144b781787\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{89EE1B1E-306C-314A-9173-6765F7302988}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
