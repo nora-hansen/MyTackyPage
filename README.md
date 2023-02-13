@@ -18,7 +18,10 @@ My personal webpage :)
 - Persistent changes
 - Color favorites
 
-## Patch notes
+## Patch notes, updates
+### Version 1.07 - 13. February 2023
+- New page: Flutter preview. Contains a tiny preview of the upcoming website remake
+
 ### Version 1.06 - 24. January 2023
 - Styling: Change layout on small screens
 
