@@ -21,6 +21,7 @@ My personal webpage :)
 ## Patch notes, updates
 ### Version 1.07 - 13. February 2023
 - New page: Flutter preview. Contains a tiny preview of the upcoming website remake
+- Links page: Added a few more links
 
 ### Version 1.06 - 24. January 2023
 - Styling: Change layout on small screens
