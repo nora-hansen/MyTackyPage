@@ -51,114 +51,121 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      drawer: Drawer(
+        backgroundColor: Colors.black,
+        child: ListView(
+          // Remove padding from the ListView ?
+          padding: EdgeInsets.zero,
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.blue,
+              ),
+              child: Text(
+                'Pages',
+                style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            ListTile(
+              title: const Text(
+                'Home',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              trailing: const Icon(Icons.home_filled, color: Colors.white),
+              onTap: () {
+                setState(() {
+                  index = 0;
+                });
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              title: const Text(
+                'About',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              trailing: const Icon(Icons.question_mark, color: Colors.white),
+              onTap: () {
+                setState(() {
+                  index = 1;
+                });
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              title: const Text(
+                'Links',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              trailing: const Icon(Icons.directions_run, color: Colors.white),
+              onTap: () {
+                setState(() {
+                  index = 2;
+                });
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              title: const Text(
+                'JavaScript Bull',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              trailing: const Icon(Icons.quiz, color: Colors.white),
+              onTap: () {
+                setState(() {
+                  index = 3;
+                });
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              title: const Text(
+                'SoundCloud',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              trailing: const Icon(Icons.music_note, color: Colors.white),
+              onTap: () {
+                setState(() {
+                  index = 4;
+                });
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              title: const Text(
+                'Thanks',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              trailing: const Icon(Icons.thumb_up, color: Colors.white),
+              onTap: () {
+                setState(() {
+                  index = 5;
+                });
+                Navigator.pop(context);
+              },
+            ),
+          ],
         ),
-        drawer: Drawer(
-          backgroundColor: Colors.black,
-          child: ListView(
-            // Remove padding from the ListView ?
-            padding: EdgeInsets.zero,
-            children: [
-              const DrawerHeader(
-                decoration: BoxDecoration(
-                  color: Colors.blue,
-                ),
-                child: Text(
-                  'Pages',
-                  style: TextStyle(
-                    fontSize: 30,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-              ListTile(
-                title: const Text(
-                  'Home',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                ),
-                onTap: () {
-                  setState(() {
-                    index = 0;
-                  });
-                  Navigator.pop(context);
-                },
-              ),
-              ListTile(
-                title: const Text(
-                  'About',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                ),
-                onTap: () {
-                  setState(() {
-                    index = 1;
-                  });
-                  Navigator.pop(context);
-                },
-              ),
-              ListTile(
-                title: const Text(
-                  'Links',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                ),
-                onTap: () {
-                  setState(() {
-                    index = 2;
-                  });
-                  Navigator.pop(context);
-                },
-              ),
-              ListTile(
-                title: const Text(
-                  'JavaScript Bull',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                ),
-                onTap: () {
-                  setState(() {
-                    index = 3;
-                  });
-                  Navigator.pop(context);
-                },
-              ),
-              ListTile(
-                title: const Text(
-                  'SoundCloud',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                ),
-                onTap: () {
-                  setState(() {
-                    index = 4;
-                  });
-                  Navigator.pop(context);
-                },
-              ),
-              ListTile(
-                title: const Text(
-                  'Thanks',
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                ),
-                onTap: () {
-                  setState(() {
-                    index = 5;
-                  });
-                  Navigator.pop(context);
-                },
-              ),
-            ],
-          ),
-        ),
-        body: bodyWidgets[index]);
+      ),
+      body: bodyWidgets[index],
+    );
   }
 }

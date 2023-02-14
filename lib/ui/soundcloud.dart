@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_html/flutter_html.dart';
+// import 'package:flutter_html/flutter_html.dart';
 
 const htmlData = """
 <iframe width="100%" height="300" scrolling="no" frameborder="no" 
@@ -25,6 +25,7 @@ class SoundCloudPage extends StatelessWidget {
           title: const Text('SoundCloud'),
           backgroundColor: Colors.orange,
         ),
+        // ignore: prefer_const_literals_to_create_immutables
         body: ListView(children: [
           const ListTile(
               title: Text('My epic SoundCloud mixtape. It is fire'),
@@ -32,9 +33,9 @@ class SoundCloudPage extends StatelessWidget {
                 Icons.audiotrack,
                 color: Colors.orange,
               )),
-          Html(
-            data: htmlData,
-          ),
+          // Html(
+          //   data: htmlData,
+          // ),
         ]));
   }
 }
