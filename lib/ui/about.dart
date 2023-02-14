@@ -10,6 +10,7 @@ class AboutPage extends StatelessWidget {
           title: const Text(
             'About',
           ),
+          backgroundColor: Colors.blue,
         ),
         body: const Text(
           'This website is being remade with Flutter aww yeah',

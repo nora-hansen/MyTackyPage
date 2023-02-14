@@ -2,12 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:nurenur/ui/home.dart';
 import 'package:nurenur/ui/about.dart';
 import 'package:nurenur/ui/links.dart';
+import 'package:nurenur/ui/soundcloud.dart';
+import 'package:nurenur/ui/js_bull.dart';
+import 'package:nurenur/ui/thanks.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-List<Widget> bodyWidgets = [HomePage(), AboutPage(), LinksPage()];
+List<Widget> bodyWidgets = [
+  const HomePage(),
+  const AboutPage(),
+  const LinksPage(),
+  const JsPage(),
+  const SoundCloudPage(),
+  const ThanksPage()
+];
 int index = 0;
 
 class MyApp extends StatelessWidget {
@@ -100,6 +110,48 @@ class _MyHomePageState extends State<MyHomePage> {
                 onTap: () {
                   setState(() {
                     index = 2;
+                  });
+                  Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text(
+                  'JavaScript Bull',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+                onTap: () {
+                  setState(() {
+                    index = 3;
+                  });
+                  Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text(
+                  'SoundCloud',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+                onTap: () {
+                  setState(() {
+                    index = 4;
+                  });
+                  Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: const Text(
+                  'Thanks',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+                onTap: () {
+                  setState(() {
+                    index = 5;
                   });
                   Navigator.pop(context);
                 },

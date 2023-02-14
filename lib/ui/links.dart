@@ -8,6 +8,7 @@ class LinksPage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Links'),
+          backgroundColor: Colors.lightGreen,
         ),
         body: ListView(
           children: const [
