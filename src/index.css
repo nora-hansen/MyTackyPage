@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://www.icegif.com/wp-content/uploads/icegif-5587.gif");
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  background-color: #FFFe;
+  height: 100vh;
+  padding-left: 5px;
+}
+
+.row  {
+  /* display: grid;
+  grid-template-columns: 150px 150px 150px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.egg-count {
+  background-color: rgb(206, 255, 206);
+  color: green;
+  width: 310px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+  padding: 5px;
+  border: 2px solid palegreen;
+}
+
+.egg-count h2 {
+  background-color: light-pink;
+  border-bottom: double;
+  text-align: center;
+}
+
+.index-list {
+  width: 30%;
+  float: left;
+}

@@ -1,0 +1,36 @@
+.nav {
+    background-color: rgb(237, 255, 237);
+    color: black;
+    float: left;
+    width: 10%;
+    height: 100vh;
+    margin-right:15px;
+}
+
+.nav p {
+    color:black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.nav ul li {
+    font-size: 15px;
+    border-bottom: 5px solid white;
+    padding: 20px;
+    transition: 0.4s;
+}
+
+.nav ul li:hover {
+    background-color: palegreen;
+}
+
+.nav ul li:active {
+    background-color: rgb(119, 255, 119);
+}

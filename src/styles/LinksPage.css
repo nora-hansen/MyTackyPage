@@ -1,0 +1,6 @@
+.container {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: [line1] 30px [line2] 40px;
+    grid-template-rows: 3;
+}
