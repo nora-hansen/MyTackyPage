@@ -19,6 +19,10 @@ My personal webpage :)
 - Color favorites
 
 ## Patch notes, updates
+### Version 2.00 - 19. March 2023
+The page is now a React App, with a brand new design and SoundCloud Player!
+- JavaScript Bullshit has not yet been reimplemented
+
 ### Version 1.07 - 13. February 2023
 - New page: Flutter preview. Contains a tiny preview of the upcoming website remake
 - Links page: Added a few more links
