@@ -1,12 +1,20 @@
+h1 {
+	margin: 0;
+  margin-top: 8px;
+}
+
+
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
   background-image: url("https://www.icegif.com/wp-content/uploads/icegif-5587.gif");
+  background-attachment: fixed;
   background-size: cover;
+
 }
 
 code {
@@ -17,14 +25,16 @@ code {
 .main {
   background-color: #FFFe;
   height: 100vh;
-  padding-left: 5px;
+  overflow:auto;
+  margin-top: 0; 
+  padding-left: 10px;
 }
 
 .row  {
   /* display: grid;
   grid-template-columns: 150px 150px 150px; */
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 186px);
 }
 
 .egg-count {
@@ -48,4 +58,53 @@ code {
 .index-list {
   width: 30%;
   float: left;
+}
+
+.songs  {
+  color: rgb(0, 63, 34);
+  display: grid;
+  grid-template-columns: auto auto;
+  flex-direction: column;
+  background-color: white;
+}
+
+
+.hampter  {
+  background-image: url("https://media.tenor.com/1KxWSlTlIZMAAAAC/clouds-anime.gif");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: pink;
+  height: 100vh;
+  overflow:auto;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+  text-align: center;
+}
+
+.hammy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 640px);
+  justify-content: center;
+}
+
+.react-player video {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: none;
+}
+
+ul, ol {  
+
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th, td  {
+  border: solid 1px black;
 }

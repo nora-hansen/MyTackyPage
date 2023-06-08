@@ -17,9 +17,11 @@ function Aside()    {
 
     return(
         <div className="aside">
-            <ReactPlayer 
+            <ReactPlayer
+            className="player"
             url='https://soundcloud.com/noriakinure/sets/mixtape-for-nurenur-eu?si=51227b766dc04b90b5686ebc0e2f5f2d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing' 
-            width="200px"            
+            width="100%"    
+            height="90%"
             controls="true"
             volume={value / 100}
             />

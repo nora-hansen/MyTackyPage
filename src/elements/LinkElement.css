@@ -1,6 +1,6 @@
 .link-element   {
     background-color: palegreen;
-    width: 120px;
+    width: auto;
 
     display: grid;
     text-align: center ;

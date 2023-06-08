@@ -7,14 +7,14 @@ import JSBullPage from './pages/JavaScriptBull';
 import LinksPage from './pages/LinksPage';
 import SongsPage from './pages/SongsPage';
 import ThanksPage from './pages/ThanksPage';
+import HampterPage from './pages/HampterPage';
+import NotFound from './pages/NotFound';
 // Page elements
 import Header from './page-elements/Header';
 import Nav from './page-elements/Nav';
 import Aside from './page-elements/Aside';
 import './App.css';
 
-
-import ReactPlayer from 'react-player';
 
 function App() {
   return (
@@ -29,13 +29,9 @@ function App() {
         <Route path='/jsbull' element={<JSBullPage />} />
         <Route path='/songs' element={<SongsPage />} />
         <Route path='/thanks' element={<ThanksPage />} />
+        <Route path='/hampter' element={<HampterPage />} />
+        <Route path='*' element={<NotFound />}/>
       </Routes>
-      {/* <div>
-        <ReactPlayer 
-          url="https://soundcloud.com/noriakinure/sets/mixtape-for-nurenur-eu" 
-          controls="true"
-          />
-      </div> */}
     </>
   )
 }
