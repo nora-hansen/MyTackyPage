@@ -13,7 +13,7 @@ function SongsPage()    {
                 <h2>Most recent <StarOutlineIcon /></h2>
                 <ReactPlayer 
                 className="react-player video"
-                url="https://www.youtube.com/watch?v=qCML6GxG3u0"
+                url="https://www.youtube.com/watch?v=6RmC0hBUkds"
                 width="100%"
                 controls="true"
                 />

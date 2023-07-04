@@ -4,7 +4,7 @@ function JSBullPage()  {
     return(
         <div className="main">
             <h1>JavaScript Bullshit</h1>
-            <UnderConstructionPage></UnderConstructionPage>
+            <UnderConstructionPage></UnderConstructionPage>  
         </div>
     )
 }

@@ -21,7 +21,23 @@ function Aside()    {
             className="player"
             url='https://soundcloud.com/noriakinure/sets/mixtape-for-nurenur-eu?si=51227b766dc04b90b5686ebc0e2f5f2d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing' 
             width="100%"    
-            height="90%"
+            height="45%"
+            controls="true"
+            volume={value / 100}
+            config={{
+              soundcloud: {
+                options:  {
+                  show_artwork: false,
+                  sharing: true
+                }
+              }
+            }}
+            />
+            <ReactPlayer
+            className="player"
+            url='https://www.youtube.com/playlist?list=PLNzviZsnac1Uhn1Nf6dO61xyZi3YCUXzI' 
+            width="100%"    
+            height="45%"
             controls="true"
             volume={value / 100}
             />
