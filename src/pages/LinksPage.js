@@ -36,7 +36,7 @@ function LinksPage()    {
             <LinkElement
                 title="Twitter"
                 image="https://cdn-icons-png.flaticon.com/512/124/124021.png"
-                description="Tweets and uh :)"
+                description="DELETED. Thanks, Elon Musk!"
                 link="https://twitter.com/dronningnure"
                 hover="Twitter profile (dronningnure)">
             </LinkElement>

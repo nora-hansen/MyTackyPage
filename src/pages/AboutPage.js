@@ -2,7 +2,7 @@
 function AboutPage()  {
     return(
         <div className="main">
-            <h1>About me<img src="https://img1.picmix.com/output/stamp/normal/5/8/0/0/1870085_6eb64.gif" style={{height: "30px"}}></img></h1>
+            <h1>About me<img src="https://img1.picmix.com/output/stamp/normal/5/8/0/0/1870085_6eb64.gif" style={{height: "30px"}} alt="Green star"></img></h1>
             <h3>Basic info</h3>
             <p>My name is Nora, but I go by Nure and Noriaki online. I am 23 years old and based in northern Europe. I am currently writing my bachelor thesis in Programming at NTNU :)</p>
             <h3>Interests</h3>

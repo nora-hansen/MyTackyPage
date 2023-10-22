@@ -1,7 +1,5 @@
-import UnderConstructionPage from "./UnderConstructionOage";
 import StarOutlineIcon from '@mui/icons-material/StarOutline';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import PendingIcon from '@mui/icons-material/Pending';
 import ReactPlayer from "react-player";
 
 function SongsPage()    {
@@ -13,7 +11,7 @@ function SongsPage()    {
                 <h2>Most recent <StarOutlineIcon /></h2>
                 <ReactPlayer 
                 className="react-player video"
-                url="https://www.youtube.com/watch?v=6RmC0hBUkds"
+                url="https://youtu.be/K33atDH0jiM"
                 width="100%"
                 controls="true"
                 />
