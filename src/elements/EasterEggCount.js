@@ -18,10 +18,10 @@ class EasterEggCount extends Component {
     render()    {
         return(
             <div className="egg-count">
-                <h2>Easteregg count: X</h2>
+                <h3>Easteregg count: X</h3>
                 <p>Can you find them all? {">"}:)</p>
                 <img src="https://www.animatedimages.org/data/media/29/animated-easter-egg-image-0004.gif" 
-                alt="Easter egg gif" />
+                alt="Easter egg gif" width="200px"/>
             </div>
         )
     }
